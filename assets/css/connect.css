@@ -1,0 +1,6 @@
+.connect > .row { padding: 0; }
+.connect > .row > div {
+    padding: 0 4px;
+    max-width: 120px;
+}
+.connect img { width: 100%; }

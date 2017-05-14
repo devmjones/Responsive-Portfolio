@@ -1,0 +1,39 @@
+.header {
+    background-color: #ffffff;
+    height: 64px;
+}
+
+.heading {
+    padding: 0 32px;
+    color: white;
+    display: inline-block;
+}
+
+.heading h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 64px;
+}
+
+.linkArea {
+    line-height: 64px;
+    float: right;
+}
+
+.linkArea a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777777;
+    border-left: 1px solid #dddddd;
+    padding: 0 12px;
+}
+
+.linkArea a:last-child {
+    padding-right: 0;
+}
+
+.linkArea a:first-child {
+    border: 0;
+    padding-left: 0;
+}
+

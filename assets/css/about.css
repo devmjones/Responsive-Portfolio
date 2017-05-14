@@ -1,0 +1,14 @@
+.about {
+    color: #777777;
+    line-height: 150%;
+}
+
+.about .portrait {
+    float: left;
+    width: 192px;
+    margin: 0 16px 16px 0;
+}
+
+.about p {
+    margin-bottom: 1ex;
+}

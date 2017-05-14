@@ -1,0 +1,37 @@
+.portfolio .row {
+    padding: 0;
+}
+
+.portfolio .project {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.project {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.portfolio a:nth-child(even) .project {
+    margin-right: 20px;
+}
+
+.project .picture {
+    height: 223px;
+    overflow-y: hidden;
+}
+
+.project .caption {
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    width: 100%;
+    top: 160px;
+}
+
+.project img {
+    width: 100%;
+    min-height: 223px;
+}
+
